@@ -1,0 +1,78 @@
+:root {
+    --main-color: #0061f2;
+    --second-color: #dae7fb;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 1em;
+    position: sticky;
+}
+      
+.nav-item {
+    font-size: 16px;
+}
+
+#title {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.navbar .container #items {
+    justify-content: end;
+}
+
+.nav-item a::after {
+   
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.navbar .btn-buy {
+    border-radius: 10px;
+    background-color: var(--main-color);
+    height: 5vh;
+    width: 8vw;
+    color: var(--second-color);
+    font-size: 1vw;
+}
+
+.container .column-text {
+    align-self: center;
+}
+
+.container h1 {
+    font-size: 2.2vw;  
+}
+
+.container p {
+    font-size: 1.2vw;
+}
+
+.container .btn-pages {
+    border-radius: 10px;
+    background-color: var(--main-color);
+    height: 5vh;
+    width: 8vw;
+    color: var(--second-color);
+    font-size: 1vw;
+    border: none;
+}
+
+.container .btn-doc {
+    border-radius: 10px;
+    background-color: var(--second-color);
+    height: 5vh;
+    width: 8vw;
+    color: var(--main-color);
+    font-size: 1vw;
+    border: none;
+}
+
+.section {
+    background-color: #69707a;
+}
